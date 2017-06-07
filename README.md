@@ -16,7 +16,7 @@ Please cite the original paper in your publications if it helps your research:
 }
 ```
 
-### Requirements: software
+### Requirementsgen_patch: software
 
 [Caffe](http://caffe.berkeleyvision.org/) and MATLAB 2014a or above are required. **Notice:** A modified version of Caffe is requried.
 
@@ -46,3 +46,5 @@ We will call the directory that you cloned `$CROWD_ROOT`. We have prepared a toy
     ```
     * Run the [gen_density_map.m](scripts/gen_density_map.m). It will generate density map for each frame.
     * Run the [gen_patch.m](scripts/gen_patch.m). It will crop the frames and density maps.
+2. Convert to Leveldb
+    * Converting to Leveldb needs the Caffe, which is private for now.
