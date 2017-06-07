@@ -29,7 +29,7 @@ Please cite the original paper in your publications if it helps your research:
 git clone https://github.com/wk910930/crowd_density_segmentation.git
 ```
 
-2. Build Caffe (Code is **private** for now)$CROWD_ROOT
+2. Build Caffe (Code is **private** for now)
 
 ```Shell
 # Currently the code is not allowed to be public.
