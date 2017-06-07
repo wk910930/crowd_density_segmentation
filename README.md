@@ -37,7 +37,7 @@ git clone https://github.com/wk910930/crowd_density_segmentation.git
 
 ### Prepare training data
 
-We will call the directory that you cloned `$CROWD_ROOT`. Place your own data under the [data](data).
+We will call the directory that you cloned `$CROWD_ROOT`. We have prepared a toy dataset called [dataset_01](data/dataset_01), which is used to demonstrate how to generate training data. Place your own dataset(s) under the [data](data) for further research.
 
 1. Generate density map for each frame
     * Go to the [scripts](scripts) folder.
