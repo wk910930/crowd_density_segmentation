@@ -44,4 +44,4 @@ We will call the directory that you cloned `$CROWD_ROOT`. Place your own data un
     ```Shell
     cd $CROWD_ROOT/scripts
     ```
-    * Open MATLAB (desktop or terminnal, both are okay) and run the [gen_density_map.m](gen_density_map.m).
+    * Open MATLAB (desktop or terminnal, both are okay) and run the [gen_density_map.m](scripts/gen_density_map.m).
