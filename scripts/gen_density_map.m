@@ -2,7 +2,7 @@ clear
 
 % Configuration
 dataset = 'dataset_01';
-display = 1;
+display = 0;
 head_only = 0;
 gauss_size = 120;
 person_height = gauss_size * 4;
