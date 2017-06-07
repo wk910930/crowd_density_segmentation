@@ -39,9 +39,10 @@ git clone https://github.com/wk910930/crowd_density_segmentation.git
 
 We will call the directory that you cloned `$CROWD_ROOT`. We have prepared a toy dataset called [dataset_01](data/dataset_01), which is used to demonstrate how to generate training data. Place your own dataset(s) under the [data](data) for further research.
 
-1. Generate density map for each frame
+1. Generate density map
     * Go to the [scripts](scripts) folder.
     ```Shell
     cd $CROWD_ROOT/scripts
     ```
-    * Open MATLAB (desktop or terminnal, both are okay) and run the [gen_density_map.m](scripts/gen_density_map.m).
+    * Run the [gen_density_map.m](scripts/gen_density_map.m). It will generate density map for each frame.
+    * Run the [gen_patch.m](scripts/gen_patch.m). It will crop the frames and density maps.
