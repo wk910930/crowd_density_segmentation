@@ -79,7 +79,7 @@ for index = 1:numel(scene_list)
       body = temp_a' * temp_b * 4;
    
       if head_only
-        body(:) = 0.0;
+        body(:) = 0.0; %#ok<UNRCH>
       end
       % combine body with head
       body(1:gauss_size, 1:gauss_size) = body(1:gauss_size, 1:gauss_size) + head;
@@ -96,7 +96,7 @@ for index = 1:numel(scene_list)
     save(fullfile(output_dir, [basename '.mat']), 'density_map');
  
     if display
-      im = imread(fullfile(frame_dir, [basename '.jpg']));
+      im = imread(fullfile(frame_dir, [basename '.jpg'])); %#ok<UNRCH>
       
       figure(1)
       subplot(2, 1, 1);
@@ -119,4 +119,6 @@ for index = 1:numel(scene_list)
   end
 end
 
-close
+if display
+  close %#ok<UNRCH>
+end
