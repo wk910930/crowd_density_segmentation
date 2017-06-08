@@ -16,7 +16,7 @@ Please cite the original paper in your publications if it helps your research:
 }
 ```
 
-### Requirementsgen_patch: software
+### Requirements: software
 
 [Caffe](http://caffe.berkeleyvision.org/) and MATLAB 2014a or above are required. **Notice:** A modified version of Caffe is requried.
 
