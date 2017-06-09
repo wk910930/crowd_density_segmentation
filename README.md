@@ -47,6 +47,7 @@ We will call the directory that you cloned `$CROWD_ROOT`. We have prepared a toy
     * Run the [gen_density_map.m](scripts/gen_density_map.m). It will generate density map for each frame.
     * Run the [gen_patch.m](scripts/gen_patch.m). It will crop the frames and density maps.
 2. Convert to Leveldb
+    * Training the model needs three leveldb dataset, *i.e.* `data_db`, `regression_db` and `segment_db`, which stores the frames, segmentation masks and density maps, respectively.
     * Converting to Leveldb needs the Caffe, which is private for now.
     ```Shell
     # Notice:
